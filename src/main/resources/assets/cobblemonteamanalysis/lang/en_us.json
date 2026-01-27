@@ -1,0 +1,30 @@
+{
+  "key.cobblemonteamanalysis.open_gui": "Open Team Analysis",
+  "key.categories.cobblemonteamanalysis": "Cobblemon Team Analysis",
+
+  "itemGroup.cobblemonteamanalysis": "Cobblemon Team Analysis",
+
+  "gui.cobblemonteamanalysis.title": "Cobblemon Team Analysis",
+  "gui.cobblemonteamanalysis.refresh": "Refresh",
+  "gui.cobblemonteamanalysis.close": "Close",
+  "gui.cobblemonteamanalysis.presets": "Saved Presets",
+  "gui.cobblemonteamanalysis.current_party": "Current Party",
+  "gui.cobblemonteamanalysis.weaknesses": "Weaknesses",
+  "gui.cobblemonteamanalysis.coverage": "Coverage Gaps",
+  "gui.cobblemonteamanalysis.defense": "Defensive Strengths",
+  "gui.cobblemonteamanalysis.recommendations": "Recommended Pokemon",
+
+  "commands.cta.save.success": "Saved team preset: %s",
+  "commands.cta.save.fail.exists": "A preset with that name already exists.",
+  "commands.cta.save.fail.max": "You've reached the maximum number of presets (20).",
+  "commands.cta.save.fail.empty": "Your party is empty!",
+  "commands.cta.load.success": "Loaded team: %s",
+  "commands.cta.load.fail.notfound": "Preset not found: %s",
+  "commands.cta.delete.success": "Deleted preset: %s",
+  "commands.cta.delete.fail": "Preset not found: %s",
+  "commands.cta.list.empty": "You have no saved team presets.",
+  "commands.cta.list.header": "Your Team Presets (%d/20):",
+  "commands.cta.share.message": "%s shared a team: %s",
+  "commands.cta.import.success": "Imported team template: %s",
+  "commands.cta.rename.success": "Renamed %s to %s"
+}

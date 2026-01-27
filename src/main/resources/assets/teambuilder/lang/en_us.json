@@ -1,0 +1,51 @@
+{
+  "itemGroup.teambuilder": "Cobblemon Team Builder",
+
+  "commands.teambuilder.save.success": "Saved team preset: %s",
+  "commands.teambuilder.save.fail.exists": "A preset with that name already exists.",
+  "commands.teambuilder.save.fail.max": "You've reached the maximum number of presets (20).",
+  "commands.teambuilder.save.fail.empty": "Your party is empty!",
+
+  "commands.teambuilder.load.success": "Loaded team: %s",
+  "commands.teambuilder.load.fail.notfound": "Preset not found: %s",
+  "commands.teambuilder.load.fail.missing": "Some Pokemon in this preset are missing from your PC.",
+
+  "commands.teambuilder.delete.success": "Deleted preset: %s",
+  "commands.teambuilder.delete.fail": "Preset not found: %s",
+
+  "commands.teambuilder.list.empty": "You have no saved team presets.",
+  "commands.teambuilder.list.header": "Your Team Presets (%d/20):",
+
+  "commands.teambuilder.share.message": "%s shared a team: %s",
+  "commands.teambuilder.import.success": "Imported team template: %s",
+  "commands.teambuilder.import.fail.format": "Invalid share code format.",
+  "commands.teambuilder.import.fail.max": "You've reached the maximum number of presets (20).",
+
+  "commands.teambuilder.rename.success": "Renamed %s to %s",
+  "commands.teambuilder.rename.fail": "Failed to rename. Preset not found or name already taken.",
+
+  "gui.teambuilder.title": "Team Builder",
+  "gui.teambuilder.search": "Search...",
+  "gui.teambuilder.filter.type": "Type",
+  "gui.teambuilder.filter.level": "Level",
+  "gui.teambuilder.filter.shiny": "Shiny",
+  "gui.teambuilder.sort.pokedex": "Pokedex #",
+  "gui.teambuilder.sort.level": "Level",
+  "gui.teambuilder.sort.name": "Name",
+
+  "gui.teambuilder.team.slot": "Slot %d",
+  "gui.teambuilder.team.empty": "Empty",
+  "gui.teambuilder.team.missing": "Missing: %s",
+
+  "gui.teambuilder.presets.title": "Saved Teams",
+  "gui.teambuilder.presets.save": "Save",
+  "gui.teambuilder.presets.load": "Load",
+  "gui.teambuilder.presets.share": "Share",
+  "gui.teambuilder.presets.delete": "Delete",
+
+  "gui.teambuilder.analysis.title": "Team Analysis",
+  "gui.teambuilder.analysis.defense": "Defense",
+  "gui.teambuilder.analysis.coverage": "Coverage",
+  "gui.teambuilder.analysis.weakness": "Weak to: %s",
+  "gui.teambuilder.analysis.suggestion": "Suggestion: %s"
+}
