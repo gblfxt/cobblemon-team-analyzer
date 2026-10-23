@@ -64,10 +64,8 @@ object RCTIntegration {
             // Get RCTApi class
             val rctApiClass = Class.forName("com.gitlab.srcmc.rctapi.api.RCTApi")
 
-            // Get the DEFAULT_INSTANCE field
-            val instanceField = rctApiClass.getDeclaredField("DEFAULT_INSTANCE")
-            instanceField.isAccessible = true
-            val rctApi = instanceField.get(null)
+            // RCT Mod registers its trainers on the "rctmod" instance, not the default one
+            val rctApi = rctApiClass.getMethod("getInstance", String::class.java).invoke(null, "rctmod")
 
             if (rctApi == null) {
                 CobblemonTeamAnalysis.LOGGER.warn("RCT API instance is null")
